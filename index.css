@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 .header {
     background: #FFCD9E;
     width: 100%;
@@ -13,7 +14,7 @@ body {
     margin: 0;
 }
 
-img {
+.c1{
     max-height: 300px;
     max-width: 260px;
     position: absolute;
@@ -56,12 +57,12 @@ top: 66.395263671875px; */
 button {
     position: absolute;
     width: 216px;
-    height: 54px;
+    height: 43px;
     left: 436px;
-    top: 380px;
+    top: 360px;
     border-radius: 7px;
-    font-family: 'Times New Roman', Times, serif;
-    /* font-style: normal; */
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -72,19 +73,35 @@ button {
     color: #FFFFFF;
 
 }
+.subheading3{
+    position: absolute;
+    max-height: 81px;
+    max-width: 495px;
+    width: 290px;
+    left: 136px;
+    top: 410px;
 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 40%;
+/* or 26px */
+text-align: center;
+color: #FFFFFF;
+}
 input {
     box-sizing: border-box;
 
     position: absolute;
     width: 290px;
-    height: 54px;
+    height: 43px;
     padding: 15px;
     left: 136px;
-    top: 380px;
+    top: 360px;
     text-align: left;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Inter';
     background: #FFFFFF;
     border: 2px solid #000000;
     border-radius: 7px;
@@ -95,12 +112,12 @@ input {
     max-height: 81px;
     max-width: 227px;
 
-    top: 300px;
+    top: 290px;
     left: 136px;
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 160%;
     color: #282828;
 }
@@ -146,7 +163,7 @@ h2 {
     position: absolute;
     width: 216px;
     height: 36px;
-     left: 840px; 
+     left: 830px; 
     top: 20px; 
 
    }
@@ -161,5 +178,6 @@ h2 {
 
    }
    .svg{
-    
+text-align:  right;
+
    }
